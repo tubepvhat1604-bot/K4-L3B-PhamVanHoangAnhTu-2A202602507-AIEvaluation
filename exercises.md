@@ -271,18 +271,6 @@ verbosity bias và self-preference bằng cách nào?
 Chỉ làm sau khi hoàn thành 3.1–3.3. Chọn hai framework trong RAGAS, DeepEval
 và TruLens; chạy hoặc thiết kế một so sánh có cùng input dataset.
 
-| Tiêu chí | Framework 1: ____ | Framework 2: ____ |
-|---|---|---|
-| Setup complexity | | |
-| Metrics available | | |
-| CI/CD integration | | |
-| Kết quả trên cùng dataset | | |
-| Insight rút ra | | |
-
-- Scores có nhất quán không?
-- Framework nào strict hơn và vì sao?
-- Hai framework có tìm ra cùng failure cases không?
-
 > *Phân tích:* Chưa thực hiện (bonus tùy chọn). Các framework này cần LLM API để chấm điểm, mà môi trường làm bài không có key.
 
 ### Exercise 3.5 — Retrieval Reranking (Bonus +5)
@@ -330,8 +318,8 @@ Hoàn thành kiểm tra cuối trong khoảng 11:50–12:00.
 - [x] Tất cả required tests pass.
 - [x] `golden_dataset.json` validate thành công.
 - [x] Exercise 3.1 hoàn thành trong file JSON và bảng kết quả phía trên.
-- [ ] Exercise 3.2 có năm metrics, aggregate report và ba cases thấp nhất.
+- [x] Exercise 3.2 có năm metrics, aggregate report và ba cases thấp nhất.
 - [x] Exercise 3.3 có rubric 1–5 và bias controls.
-- [ ] `reflection.md` có ba failure analyses và regression strategy.
+- [x] `reflection.md` có ba failure analyses và regression strategy.
 - [x] Đã copy `template.py` thành `solution/solution.py`.
-- [ ] Exercise 3.4 và 3.5 chỉ làm nếu chọn bonus.
+- [x] Exercise 3.4 và 3.5 chỉ làm nếu chọn bonus. (Đã làm 3.5; không làm 3.4.)
